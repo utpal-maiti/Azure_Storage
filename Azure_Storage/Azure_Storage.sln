@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobManager", "BlobManager\BlobManager.csproj", "{10780D1B-1B06-4356-86AE-E0A7BAD20EEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{77247FBB-6D59-4548-BE0E-9FE22FFD770C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure_Storage", "..\", "{CA2541D5-0333-4048-83C6-63C1DF0A7714}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52576"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Azure_Storage\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52576\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52576"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Azure_Storage\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52576\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52576"
+		SlnRelativePath = "..\..\Azure_Storage\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10780D1B-1B06-4356-86AE-E0A7BAD20EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10780D1B-1B06-4356-86AE-E0A7BAD20EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10780D1B-1B06-4356-86AE-E0A7BAD20EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10780D1B-1B06-4356-86AE-E0A7BAD20EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2541D5-0333-4048-83C6-63C1DF0A7714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2541D5-0333-4048-83C6-63C1DF0A7714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2541D5-0333-4048-83C6-63C1DF0A7714}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2541D5-0333-4048-83C6-63C1DF0A7714}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10780D1B-1B06-4356-86AE-E0A7BAD20EEE} = {77247FBB-6D59-4548-BE0E-9FE22FFD770C}
+	EndGlobalSection
+EndGlobal
